@@ -1,0 +1,9 @@
+.footer{
+padding: 20px;
+}
+
+.footer__text{
+   color: whitesmoke;
+   font-size: 15px;
+   font-weight: 500;
+}

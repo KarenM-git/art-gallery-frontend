@@ -1,0 +1,33 @@
+.navbar {
+    width: 30%;
+    align-self: end;
+}
+
+.navbar__container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  list-style: none;
+  justify-content: space-around;
+  padding: unset;
+}
+
+.navbar__item:hover {
+  border-bottom: solid 2px whitesmoke;
+}
+
+.navbar__link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: .1em;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar__link {
+   font-size: 10px;
+  }
+}

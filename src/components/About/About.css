@@ -1,0 +1,19 @@
+.about {
+  background-color: whitesmoke;
+  background-image: linear-gradient(180deg, rgb(141 136 128 / 90%), transparent);
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+ background-color: #6c935370;
+}
+
+.about__title {
+    color: #69954cd9;;
+    border: solid;
+    width: 100%;
+}
+
+.about__text {
+    text-align: left;
+    width: 90%;
+}

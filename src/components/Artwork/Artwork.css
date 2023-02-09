@@ -1,0 +1,19 @@
+.artwork{
+ background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.artwork__title{
+ color: #d0c6b5;
+ font-size: 70px;
+}
+
+@media screen and (max-width: 900px) {
+  .artwork__title {
+    display: flex;
+    font-size: 45px;
+  }
+}

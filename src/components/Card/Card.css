@@ -1,0 +1,40 @@
+.cards {
+  display: grid;
+  align-items: center;
+  padding-top: 100px;
+  grid-template-columns: auto auto;
+}
+
+@media screen and (max-width: 900px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.card {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.card__img {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+  box-shadow: 20px 20px 20px 0px rgb(115 110 84 / 81%);
+}
+
+.card__txt-container {
+  text-align: left;
+}
+
+.card__txt-label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #c0b094;
+}
+
