@@ -1,4 +1,4 @@
-import mainImage from "../../images/wow.avif";
+import mainImage from "../../images/mainImg.avif";
 import About from "../About/About";
 import Explorer from "../Explorer/Explorer";
 import { Link } from "react-router-dom";
