@@ -23,48 +23,45 @@ function App() {
       })
       .catch((err) => {
         console.log(err);
-      })
+      });
   }, []);
 
   function handleOnExplore(evt) {
     setType(evt.target.id);
   }
   return (
-      <div className='page'>
-        <Header />
-        <Routes>
-          <Route
-            path='/'
-            element={<Main handleOnExplore={handleOnExplore} />}
-          />
-          <Route
-            path='/artwork'
-            element={
-              <Artwork
-                cards={cards}
-                setCards={setCards}
-                setPageNumber={setPageNumber}
-                pageNumber={pageNumber}
-              />
-            }
-          />
-          <Route
-            path='/search'
-            element={<Search cards={cards} setCards={setCards} />}
-          />
-          <Route
-            path='/explorer'
-            element={
-              <ExplorerPage
-                exploreCards={exploreCards}
-                setExploreCards={setExploreCards}
-                type={type}
-              />
-            }
-          ></Route>
-        </Routes>
-        <Footer />
-      </div>
+    <div className='page'>
+      <Header />
+      <Routes>
+        <Route path='/' element={<Main handleOnExplore={handleOnExplore} />} />
+        <Route
+          path='/artwork'
+          element={
+            <Artwork
+              cards={cards}
+              setCards={setCards}
+              setPageNumber={setPageNumber}
+              pageNumber={pageNumber}
+            />
+          }
+        />
+        <Route
+          path='/search'
+          element={<Search cards={cards} setCards={setCards} />}
+        />
+        <Route
+          path='/explorer'
+          element={
+            <ExplorerPage
+              exploreCards={exploreCards}
+              setExploreCards={setExploreCards}
+              type={type}
+            />
+          }
+        ></Route>
+      </Routes>
+      <Footer />
+    </div>
   );
 }
 

@@ -18,7 +18,11 @@ function Explorer({ onExplore }) {
             <span className='explorer__item-name'>Escultura </span>
           </div>
           <div className='explorer__item'>
-            <img className='explorer__item-img' src={escultura} alt='explorar esculturas'></img>
+            <img
+              className='explorer__item-img'
+              src={escultura}
+              alt='explorar esculturas'
+            ></img>
           </div>
         </Link>
         <Link className='explorer__link' to='/explorer'>
@@ -30,7 +34,11 @@ function Explorer({ onExplore }) {
             <span className='explorer__item-name'>Pintura</span>
           </div>
           <div className='explorer__item'>
-            <img className='explorer__item-img' src={pintura} alt='explorar pinturas'></img>
+            <img
+              className='explorer__item-img'
+              src={pintura}
+              alt='explorar pinturas'
+            ></img>
           </div>
         </Link>
         <Link className='explorer__link' to='/explorer'>
@@ -42,7 +50,11 @@ function Explorer({ onExplore }) {
             <span className='explorer__item-name'>Fotografía</span>
           </div>
           <div className='explorer__item'>
-            <img className='explorer__item-img' src={fotografia} alt='explorar fotografias'></img>
+            <img
+              className='explorer__item-img'
+              src={fotografia}
+              alt='explorar fotografias'
+            ></img>
           </div>
         </Link>
       </div>

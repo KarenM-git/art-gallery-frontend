@@ -3,11 +3,7 @@ import About from "../About/About";
 import Explorer from "../Explorer/Explorer";
 import { Link } from "react-router-dom";
 
-   
-
-
 function Main({ handleOnExplore }) {
- 
   return (
     <main className='main'>
       <section className='banner'>
@@ -17,7 +13,10 @@ function Main({ handleOnExplore }) {
             <p className='banner__content-txt'>
               encuentra miles de obras de arte hechas e inpiradas por mujeres
             </p>
-            <Link className='banner__bttn' to='/search'> Buscar </Link>
+            <Link className='banner__bttn' to='/search'>
+              {" "}
+              Buscar{" "}
+            </Link>
           </div>
           <div className='banner__img-overlay'></div>
           <img

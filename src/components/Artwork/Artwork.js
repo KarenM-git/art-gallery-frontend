@@ -43,7 +43,7 @@ function Artwork({ cards, setCards, setPageNumber, pageNumber }) {
       </InfiniteScroll>
     </div>
   );
-  //}
+  
 }
 
 export default Artwork;
