@@ -18,7 +18,6 @@
   bottom: 0;
   right: 0;
   background-image: linear-gradient(0deg, rgba(72, 60, 43, 0.932), transparent);
-  /* background-color: rgba(72, 60, 43, 0.932); */
   display: flex;
   border-radius: 15px;
 }
