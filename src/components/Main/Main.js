@@ -3,9 +3,6 @@ import About from "../About/About";
 import Explorer from "../Explorer/Explorer";
 import { Link } from "react-router-dom";
 
-   
-
-
 function Main({ handleOnExplore }) {
  
   return (
